@@ -2,11 +2,7 @@ import java.util.Date;
 
 public class WorkShopApplication {
 
-	private Product data = new Product();
-	//Client information
-	private int codCli;
-	private String cliDNI;
-	private String cliName;
+	private Product1 productOne = new Product1(new Product());
 	private String cliFirstName;
 	
 	//Invoice information
