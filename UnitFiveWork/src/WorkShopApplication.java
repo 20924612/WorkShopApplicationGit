@@ -1,7 +1,6 @@
-import java.util.Date;
-
 public class WorkShopApplication {
 
+<<<<<<< HEAD
 	private Product1 product1 = new Product1(new Product());
 	private String cliFirstName;
 	
@@ -16,4 +15,7 @@ public class WorkShopApplication {
 	private int numArticles;
 	private int codArt;
 	private int codQuantity;
+=======
+	private Invoice Invoice1 = new Invoice(new Product(), new Client());
+>>>>>>> refs/heads/RefactorClientInvoice
 }
